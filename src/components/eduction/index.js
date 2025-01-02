@@ -49,7 +49,7 @@ const ExperienceAndEducation = () => {
                 <div className="flex justify-between items-center border-b border-zinc-500 py-6">
                     <div className="flex flex-col gap-4">
                         <p className="text-xl text-[#4FC3F7]">Software Engineer</p>
-                        <p className="text-zinc-400 text-sm">ThinkPalm Technologies</p>
+                        <p className="text-zinc-400 text-sm">Thinkpalm Technologies</p>
                     </div>
                     <div>
                         <p className="text-zinc-400">2022 - Present</p>
