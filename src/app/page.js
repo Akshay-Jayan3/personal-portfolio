@@ -9,7 +9,7 @@ const page = () => {
   return (
     <>
       <Shapes />
-      <div className='flex justify-center items-center h-4/6'>
+      <div className='flex justify-center items-end md:items-center h-3/4'>
         <RunningText />
       </div>
       <div className='flex flex-col justify-center items-center'>
