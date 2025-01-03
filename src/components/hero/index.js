@@ -62,11 +62,11 @@ const HeroSection = () => {
       <div className="flex flex-col items-center gap-6 max-w-[600px] leading-10">
         <h2 ref={headingRef} className={`${orbitron.className} text-xl md:text-4xl whitespace-nowrap`}>
         <span className="text-[#4FC3F7]">&lt;h1&gt;</span>
-          Front-end Developer
+          Hi ,I'm Akshay Jayan
         <span className="text-[#4FC3F7]">&lt;/h1&gt;</span>
         </h2>
         <p ref={paragraphRef} className="text-lg md:text-2xl text-gray-400">
-        <span className="text-[#4FC3F7]">&lt;p&gt;</span>Hi, I'm Akshay Jayan, a front-end developer with expertise in React,
+        <span className="text-[#4FC3F7]">&lt;p&gt;</span>I'm a front-end developer with expertise in React,
           TypeScript, and modern web technologies. I specialize in building
           responsive, dynamic applications and optimizing performance for a
           seamless user experience.<span className="text-[#4FC3F7]">&lt;/p&gt;</span>

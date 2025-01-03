@@ -15,17 +15,17 @@ const Navbar = () => {
         <div className="w-full flex justify-center items-center fixed bottom-4 z-50">
             <nav className="bottom-nav animateborder">
                 <ul className="flex gap-10">
-                    <li className='hover:scale-125 transition-all duration-300'>
+                    <li className={`w-10 h-10 flex justify-center items-center hover:scale-110 transition-all duration-300 rounded-[40px] ${pathname === "/" && "bg-[#2c3e50] border border-zinc-600"}`}>
                         <Link href="/" >
                          <HomeIcon color={isActive("/")} />
                         </Link>
                     </li>
-                    <li className='hover:scale-110 transition-transform duration-300'>
+                    <li className={`w-10 h-10 flex justify-center items-center hover:scale-110 transition-all duration-300 rounded-[40px] ${pathname === "/about" && "bg-[#2c3e50] border border-zinc-600"}`}>
                         <Link href="/about">
                             <AboutIcon color={isActive("/about")}/>
                         </Link>
                     </li>
-                    <li className='hover:scale-110 transition-transform duration-300'>
+                    <li className={`w-10 h-10 flex justify-center items-center hover:scale-110 transition-all duration-300 rounded-[40px] ${pathname === "/work" && "bg-[#2c3e50] border border-zinc-600"}`}>
                         <Link href="/work">
                             <WorkIcon color={isActive("/work")}/>
                         </Link>
