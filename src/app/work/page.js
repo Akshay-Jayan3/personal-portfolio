@@ -15,18 +15,18 @@ const Work = () => {
                 <p className='text-sm sm:text-base'>
                     Hoot, the music player completely built with Electron JS, combines sleek design with powerful functionality. With intuitive playlist creation, and an immersive audio experience, Hoot transforms your music journey into a harmonious adventure. Its user-friendly interface and smart organizational features make navigating your music library a breeze.
                 </p>
-                <div className="flex gap-4 mt-4 justify-between">
+                <div className="w-full flex gap-4 mt-4 items-center justify-between flex-wrap">
                     <a
                         href="https://jayanakshay.gumroad.com/l/isjsu"
                         target="_blank"
-                        className="px-4 py-2 bg-[#4fc3f7] text-black font-semibold rounded-lg shadow hover:bg-[#36a9e1] transition"
+                        className="w-full md:w-fit text-center px-4 py-2 bg-[#4fc3f7] text-black font-semibold rounded-lg shadow hover:bg-[#36a9e1] transition whitespace-nowrap"
                     >
                         Download via Gumroad
                     </a>
                     <a
                         href="https://github.com/Akshay-Jayan3/Hoot"
                         target="_blank"
-                        className="px-4 py-2 border border-white text-white rounded-lg hover:bg-white/10 transition"
+                        className="w-full md:w-fit text-center px-4 py-2 border border-white text-white rounded-lg hover:bg-white/10 transition whitespace-nowrap"
                     >
                         View on GitHub
                     </a>
